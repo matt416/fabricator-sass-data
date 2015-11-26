@@ -1,9 +1,8 @@
 {
   "name": "fabricator-sass-data",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Gulp plugin for Fabricator to find SASS variables and turn them into JSON data.",
   "main": "index.js",
- 
   "author": "Matt Rintoul <matt@sayyeah.com>",
   "license": "MIT",
   "devDependencies": {
