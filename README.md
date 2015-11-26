@@ -46,7 +46,7 @@ var sassData = require('fabricator-sass-data');
 
 // Task
 gulp.task('sass-data', function () {
-    return gulp.src('src/assets/toolkit/styles/variables/**/*.{sass|scss}') // Location of the SASS/SCSS files you want to process.
+    return gulp.src('src/assets/toolkit/styles/variables/**/*.{sass,scss}') // Location of the SASS/SCSS files you want to process.
         .pipe(sassData())
        	.pipe(gulp.dest('src/data')); // Output directory
 });
@@ -55,7 +55,7 @@ gulp.task('sass-data', function () {
 // Paste this with the other watch tasks, inside the 'serve' task
 
 gulp.task('sass-data:watch', ['sass-data']);
-gulp.watch('src/assets/toolkit/styles/variables/**/*.{sass|scss}', ['sass-data:watch']); // Ensure the location is the same as above so the task runs when the SASS files are changed.
+gulp.watch('src/assets/toolkit/styles/variables/**/*.{sass,scss}', ['sass-data:watch']); // Ensure the location is the same as above so the task runs when the SASS files are changed.
 
 ```
 
