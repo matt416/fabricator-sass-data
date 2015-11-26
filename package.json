@@ -1,0 +1,23 @@
+{
+  "name": "fabricator-sass-data",
+  "version": "0.1.0",
+  "description": "Gulp plugin for Fabricator to find SASS variables and turn them into JSON data.",
+  "main": "index.js",
+ 
+  "author": "Matt Rintoul <matt@sayyeah.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^1.5.0",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.0",
+    "vinyl": "^0.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/matt416/fabricator-sass-data"
+  },
+  "bugs": {
+    "url": "https://github.com/matt416/fabricator-sass-data/issues"
+  },
+  "homepage": "https://github.com/matt416/fabricator-sass-data"
+}
